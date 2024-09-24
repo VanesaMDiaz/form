@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario de contacto</h1>
+
+    <form action="#" method="POST">
+
+        <label for="fname"> Nombre: </label>
+        <input type="text" placeholder="Escriba su nombre" required id="fname" name="fname">
+        <label for="lname"> Apellido: </label>
+        <input type="text" placeholder="Escriba su apellido" required id="lname" name="lname">
+        <br><br>
+        <label for="age"> Año de nacimiento: </label>
+        <input type="date" id="age" name="age">
+        <br><br>
+        <label for="mail"> Email: </label>
+        <input type="email" placeholder="Escriba su email" required id="mail" name="mail">
+        <label for="pass">Contraseña: </label>
+        <input type="password" id="pass" name="pass">
+        <br><br>
+        <label for="file"> Archivo: </label>
+        <input type="file" id="file" name="file">
+        <br><br>
+        <h2>Curso</h2>
+        <p>Elija un curso: <p>
+            <label>Java Script</label>
+            <input type="radio" name="lenguaje" value="Java Script">
+            <label>SQL</label>
+            <input type="radio" name="lenguaje" value="SQL">
+            <label>Python</label>
+            <input type="radio" name="lenguaje" value="Python">
+            <br>
+            <p>Seleccione un horario: </p>
+            <label>Mañana</label>
+            <input type="checkbox">
+            <label>Tarde</label>
+            <input type="checkbox">
+            <label>Noche</label>
+            <input type="checkbox">
+            <br>
+            <p>Ubicación: </p>
+            <select>
+                <option selected value="1">Capital Federal</option>
+                <option value="2">GBA</option>
+                <option value="3">Otro</option>
+            </select>
+            <br>
+            <label>Escriba su ubicación: </label>
+            <textarea name="" id="" rows="2" cols="20"></textarea>
+            
+            <br><br>
+            <input type="submit" value="Enviar">
+        
+    </form>
+</body>
+</html>
